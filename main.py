@@ -1,8 +1,6 @@
 from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from .routes import router
-
-
 app = FastAPI(
     title="Aeroporti API",
     description="API REST per la gestione degli aeroporti",
