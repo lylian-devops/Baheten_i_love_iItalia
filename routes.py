@@ -90,5 +90,5 @@ def update_aeroporto(
     except ValueError as e:
         raise HTTPException(
             status_code=status.HTTP_404_BAD_REQUEST,
-            detail=str(e)
+            detail=str(a)
         )
