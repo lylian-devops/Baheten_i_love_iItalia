@@ -21,4 +21,4 @@ app.include_router(router, prefix="/aeroporti", tags=["aeroporti"])
 
 @app.get("/")
 def root():
-    return {"message": "Aeroporti API - Benvenuto!", "docs": "/docs"}
+    return {"message": "Aeroporti API - Welcome!", "docs": "/docs"}
