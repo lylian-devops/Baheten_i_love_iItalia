@@ -11,7 +11,7 @@ class AeroportoModel(BaseModel):
     @classmethod
     def validate_codice(cls, v: str) -> str:
         if not v.isalpha():
-            raise ValueError('Il codice deve contenere solo lettere')
+            raise ValueError('Il codice deve avere solo lettere')
         return v.upper()
 
     @field_validator('citta')
