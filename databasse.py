@@ -14,7 +14,7 @@ class Database:
     def _init_data(self):
 
         sample_airports = [
-            {"codice": "MXP", "citta": "Milano"},
+            {"codice": "MXP", "citta": "Milan"},
             {"codice": "BGY", "citta": "Bergamo"},
             {"codice": "FCO", "citta": "Roma"},
             {"codice": "LIN", "citta": "Milano Linate"},
