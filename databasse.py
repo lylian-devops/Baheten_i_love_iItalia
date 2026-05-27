@@ -80,7 +80,7 @@ class Database:
 
         for existing in self._aeroporti.values():
             if existing.id != id and existing.codice == aeroporto.codice:
-                raise ValueError(f"Aeroporto con codice {aeroporto.codice} già esistente")
+                raise ValueError(f"Aeroporto con codice {aeroporto.codice} già dentro")
 
         return aeroporto
 
